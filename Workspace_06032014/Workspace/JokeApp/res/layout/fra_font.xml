@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:src="@drawable/window_back" />
+
+    <ImageView
+        android:id="@+id/close_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:paddingTop="16dp"
+        android:src="@drawable/close" />
+    
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingTop="15dp"
+            android:layout_marginRight="37dp"
+            android:src="@drawable/plus" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/minus" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="50dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:gravity="center" >
+
+        
+
+        <SeekBar
+            android:id="@+id/seekbar_font"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:max="40"
+            android:progress="10"
+            android:progressDrawable="@drawable/slider_line_yellow"
+            android:thumb="@drawable/font_slider_button" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

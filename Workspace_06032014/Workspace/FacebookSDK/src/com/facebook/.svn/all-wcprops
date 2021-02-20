@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook
+END
+AccessTokenSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/AccessTokenSource.java
+END
+NativeProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/NativeProtocol.java
+END
+Request.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/Request.java
+END
+GetTokenClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/GetTokenClient.java
+END
+InsightsLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/InsightsLogger.java
+END
+HttpMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/HttpMethod.java
+END
+FacebookSdkVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/FacebookSdkVersion.java
+END
+TestSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/TestSession.java
+END
+AuthorizationClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/AuthorizationClient.java
+END
+FacebookDialogException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/FacebookDialogException.java
+END
+Response.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/Response.java
+END
+LoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/LoginActivity.java
+END
+Session.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/Session.java
+END
+AccessToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/AccessToken.java
+END
+FacebookOperationCanceledException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/FacebookOperationCanceledException.java
+END
+RequestAsyncTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/RequestAsyncTask.java
+END
+SessionDefaultAudience.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/SessionDefaultAudience.java
+END
+SharedPreferencesTokenCachingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/SharedPreferencesTokenCachingStrategy.java
+END
+NonCachingTokenCachingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/NonCachingTokenCachingStrategy.java
+END
+RequestBatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/RequestBatch.java
+END
+FacebookException.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/FacebookException.java
+END
+FacebookGraphObjectException.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/FacebookGraphObjectException.java
+END
+SessionLoginBehavior.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/SessionLoginBehavior.java
+END
+UiLifecycleHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/UiLifecycleHelper.java
+END
+Settings.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/Settings.java
+END
+FacebookServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/FacebookServiceException.java
+END
+FacebookRequestError.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/FacebookRequestError.java
+END
+FacebookAuthorizationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/FacebookAuthorizationException.java
+END
+SessionState.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/SessionState.java
+END
+TokenCachingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/TokenCachingStrategy.java
+END
+LegacyHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/LegacyHelper.java
+END
+LoggingBehavior.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/LoggingBehavior.java
+END

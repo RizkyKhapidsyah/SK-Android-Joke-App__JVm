@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+                <ImageView
+                android:id="@+id/fra_home_latest_joke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/slider_line" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/fra_home_first_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp"
+                    android:src="@drawable/slider_button" />
+
+                <ImageView
+                    android:id="@+id/fra_home_second_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp"
+                    android:src="@drawable/slider_button" />
+
+                <ImageView
+                    android:id="@+id/fra_home_third_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp"
+                    android:src="@drawable/slider_button" />
+
+                <ImageView
+                    android:id="@+id/fra_home_fourth_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp"
+                    android:src="@drawable/slider_button" />
+
+                <ImageView
+                    android:id="@+id/fra_home_fifth_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp"
+                    android:src="@drawable/slider_button" />
+            </LinearLayout>
+        </RelativeLayout>

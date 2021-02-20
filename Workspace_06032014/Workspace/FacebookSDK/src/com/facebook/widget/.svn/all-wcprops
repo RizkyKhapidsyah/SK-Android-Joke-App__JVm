@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget
+END
+ImageDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/ImageDownloader.java
+END
+GraphObjectPagingLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/GraphObjectPagingLoader.java
+END
+ImageResponseCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/ImageResponseCache.java
+END
+PlacePickerFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/PlacePickerFragment.java
+END
+GraphObjectCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/GraphObjectCursor.java
+END
+GraphObjectAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/GraphObjectAdapter.java
+END
+WorkQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/WorkQueue.java
+END
+PickerFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/PickerFragment.java
+END
+UserSettingsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/UserSettingsFragment.java
+END
+ImageResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/ImageResponse.java
+END
+FriendPickerFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/FriendPickerFragment.java
+END
+WebDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/WebDialog.java
+END
+LoginButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/LoginButton.java
+END
+ProfilePictureView.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/ProfilePictureView.java
+END
+UrlRedirectCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/UrlRedirectCache.java
+END
+FacebookFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/FacebookFragment.java
+END
+ImageRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/ImageRequest.java
+END
+SimpleGraphObjectCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MyDiary/!svn/ver/203/trunk/FacebookSDK/src/com/facebook/widget/SimpleGraphObjectCursor.java
+END

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:background="@drawable/back"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:visibility="gone" >
+
+
+    <LinearLayout
+        android:id="@+id/rate_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/rate" />
+
+        <TextView
+            android:id="@+id/rate_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:text="RATE THIS APP"
+            android:textColor="#222222" />
+    </LinearLayout>
+
+</LinearLayout>

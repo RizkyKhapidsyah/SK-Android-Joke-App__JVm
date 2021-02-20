@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/footer_gradient"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/fra_footer_top_ten"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_weight="1"
+        android:src="@drawable/top_ten_selector" />
+
+    <ImageView
+        android:id="@+id/fra_footer_new_stuff"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_weight="1"
+        android:src="@drawable/new_stuff_selector"/>
+
+    <ImageView
+        android:id="@+id/fra_footer_favourites"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_weight="1"
+        android:src="@drawable/favourite_jokes_selector" />
+
+    <ImageView
+        android:id="@+id/fra_footer_all_jokes"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_weight="1"
+        android:src="@drawable/all_jokes_selector" />
+
+</LinearLayout>

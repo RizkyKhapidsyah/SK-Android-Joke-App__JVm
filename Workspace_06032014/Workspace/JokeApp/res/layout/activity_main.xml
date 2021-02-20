@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dadada"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >        
+
+        <LinearLayout
+            android:id="@+id/main_container_header"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:paddingBottom="1dp" />
+
+        <LinearLayout
+            android:id="@+id/main_container_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:background="@android:color/white"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/main_container_footer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.13"
+            android:background="@android:color/white"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingTop="1dp" />
+        
+        <com.google.ads.AdView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/home_screen_admob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:loadAdOnCreate="true"
+            ads:refreshInterval="60"
+            ads:testDevices="D122AE8FC35B3FB0E55A5A9DFA64AB70"
+            android:visibility="gone"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admob_id" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_container_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_container_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <!-- <LinearLayout
+        android:id="@+id/main_container_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_container_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout> -->
+    
+    <com.facebook.widget.LoginButton
+        android:id="@+id/authButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progr_bar_face"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="125dp"
+        android:background="@android:color/darker_gray"
+        android:visibility="gone" />
+    
+
+</RelativeLayout>

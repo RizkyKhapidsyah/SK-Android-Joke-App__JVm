@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Android Joke App Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&quot;Android Joke App&quot; Documentation by &quot;dmb TEAM&quot; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&quot;Android Joke App&quot;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 07.03.2014<br>
+					By: dmb TEAM<br>
+					Email: <a href="mailto:support@dmb-team.com">support@dmb-team.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchae. If you have any questions that are beyond the scope of this help file, please feel free to email us via our user's page contact form <a href="http://codecanyon.net/user/dmbTeam" target="_blank">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<h3>I. Project Contents</h3>
+		<ol>
+			<li><a href="#javaSources">Java Sources</a></li>
+			<li><a href="#resources">Resources</a>
+				<ul>
+					<li><a href="#xmlFiles">XML Files</a></li>
+					<li><a href="#drawables">Drawables</a></li>
+				</ul>
+			</li>
+				
+			<li><a href="#others">Others</a></li>
+		</ol>
+		<h3>II. How to configure the available projects in your workspace</h3>
+		<ol>
+            <li><a href="#import_project">Import the projects into Eclipse</a></li>
+			<li><a href="#supportlib">Support Library</a></li>
+			<li><a href="#otherlib">Other Libraries</a></li>
+		</ol>
+		<h3>III. How to Customize "Joke App" for your Android Application</h3>
+		<ol>
+			<li><a href="#jokes">Jokes</a></li>
+			<li><a href="#splash">Splash Screen</a></li>
+			<li><a href="#admob">Admob</a></li>
+			<li><a href="#facebook">Facebook</a></li>
+			<li><a href="#twitter">Twitter</a></li>
+			<li><a href="#more">Other settings</a></li>
+		</ol>
+		<hr>
+		
+		<h3 id="javaSources"><strong>1. Java Sources</strong> - <a href="#toc">top</a></h3>
+		<h3>Package com.dmbteam.joke</h3>
+		<ul>
+			<li><strong>JokeApplicationContext.java</strong> - Application context.</li>
+			<li><strong>SplashScreenActivity.java</strong> - This is the first activity which will be started when the application is opened. It contains an image file to display to the users. The idea is to present your brand at start.</li>
+			<li><strong>MainActivity.java</strong> - This is the Main <code>Activity</code> of the application showing the main page with all Posts in a single page.</li>
+		</ul>
+		
+		<h3>Package com.dmbteam.joke.adapter</h3>
+		<ul>
+			<li><strong>AdapterAllJokes.java</strong> - Adapter for all Jokes.</li>
+		</ul>
+		
+		<h3>Package com.dmbteam.joke.cmn</h3>
+		<ul>
+			<li><strong>Joke.java</strong> - This class represents a Joke object </li>
+		</ul>
+		
+		<h3>Package com.dmbteam.joke.database</h3>
+		<ul>
+			<li><strong>DatabaseHelper.java</strong> - Helper class for database operations.</li>
+			<li><strong>DatabaseManager.java</strong> - This class is responsible for all database operations.</li>
+		</ul>
+		
+		<h3>Package com.dmbteam.joke.fragment</h3>
+		<ul>
+			<li><strong>FraFont.java</strong> - Represents the content for font screen.</li>
+			<li><strong>FraFooter.java</strong> - Represents the content for footer part of the screen.</li>
+			<li><strong>FraHeader.java</strong> - Represents the header part of all screens.</li>
+			<li><strong>FraHomeContent.java</strong> - Represents the content for home screen.</li>
+			<li><strong>FraJokesListContent.java</strong> - Represents the jokes list content.</li>
+			<li><strong>FraMenu.java</strong> - Represents the content for menu screen.</li>
+			<li><strong>FraSearch.java</strong> - Represents the content for search screen.</li>
+			<li><strong>FraShare.java</strong> - Represents the content for share screen.</li>
+			<li><strong>FraSingleJokeContent.java</strong> - Represents the content for a single joke.</li>
+		</ul>
+		
+		<h3>Package com.dmbteam.joke.network</h3>
+		<ul>
+			<li><strong>NetworkManager.java</strong> - This class is reponsible for all network operations.</li>
+		</ul>
+		
+		<h3>Package com.dmbteam.joke.settings</h3>
+		<ul>
+			<li><strong>AppConstants.java</strong> - This class holds all application constants.</li>
+		</ul>
+		
+		<h3>Package com.dmbteam.joke.share</h3>
+		<ul>
+			<li><strong>FacebookManager.java</strong> - This class contains all operations used for Facebook integration.</li>
+			<li><strong>MailManager.java</strong> - This class is responsible for the Mail functionality of the application.</li>
+			<li><strong>TwitterManager.java</strong> - This class contains all operations used for Twitter integration.</li>
+		</ul>
+		
+		<h3>Package com.dmbteam.joke.util</h3>
+		<ul>
+			<li><strong>SortingManager.java</strong> - This class is responsible for all Sorting operations.</li>
+			<li><strong>Utils.java</strong> - Utility class.</li>
+		</ul>
+		
+		<h3>Package com.dmbteam.joke.xml</h3>
+		<ul>
+			<li><strong>XmlManager.java</strong> - This class is responsible for all XML operations.</li>
+		</ul>
+		
+		<hr>
+
+		<h3 id="resources"><strong>2. Resources</strong> - <a href="#toc">top</a></h3>
+		
+		<h4 id="xmlFiles"><strong>2.1. XML Files</strong> - <a href="#toc">top</a></h4>
+		<h5>Folder "layout"</h5>
+		<ul>
+			<li><strong>activity_main.xml</strong> - layout of the <code>MainActivity</code></li>
+			<li><strong>fra_font.xml</strong> - layout of the font screen</li>
+			<li><strong>fra_footer.xml</strong> - layout of the footer</li>
+			<li><strong>fra_header.xml</strong> - layout of the header</li>
+			<li><strong>fra_home_content.xml</strong> - layout of the home page</li>
+			<li><strong>fra_jokes_list_content.xml</strong> - layout of the jokes list content</li>
+			<li><strong>fra_jokes_listview_item.xml</strong> - layout of the jokes listview item</li>
+			<li><strong>fra_main_pager_item.xml</strong> - layout of the main pager item</li>
+			<li><strong>fra_menu.xml</strong> - layout of the menu screen</li>
+			<li><strong>fra_search.xml</strong> - layout of the search screen</li>
+			<li><strong>fra_share.xml</strong> - layout of the share screen</li>
+			<li><strong>fra_single_joke_content.xml</strong> - layout of the single joke content</li>
+			<li><strong>fra_single_joke_pager_item.xml</strong> - layout of the single joke pager item</li>
+			<li><strong>splash.xml</strong> - layout of the splash screen</li>
+		</ul>
+		<h5>Folder "menu"</h5>
+		<ul>
+			<li><strong>main.xml</strong> - the menu in the Main Activity</li>
+		</ul>
+		<h5>Folder "assets"</h5>
+		<ul>
+			<li><strong>SHOWG.TTF</strong> - the application custom font</li>
+		</ul>
+		<h5>Folder "values"</h5>
+		<ul>
+			<li><strong>colors.xml</strong> - all the colors used in the application</li>
+			<li><strong>dimens.xml</strong> - all dimensions of the application</li>
+			<li><strong>strings.xml</strong> - all text values of the application</li>
+			<li><strong>styles.xml</strong> - all application styles</li>
+		</ul>
+		<h4 id="drawables"><strong>2.2. Drawables</strong> - <a href="#toc">top</a></h4>
+		
+		<p>The drawable files are placed according to the device resolution in the following folders: <i>drawable</i>, <i>drawable-mdpi</i>, <i>drawable-ldpi</i>, <i>drawable-hdpi</i>, <i>drawable-xhdpi</i>, <i>drawable-land-mdpi</i>, <i>drawable-land-ldpi</i>, <i>drawable-land-hdpi</i>, <i>drawable-land-xhdpi</i>. The drawable folder also contains composite shapes in .xml files that are not listed below.</p>
+		<ul>
+		
+			<li><strong>all_jokes_selector.xml</strong></li>
+			<li><strong>email_selector.xml</strong></li>
+			<li><strong>facebook_selector.xml</strong></li>
+			<li><strong>favourite_jokes_selector.xml</strong></li>
+			<li><strong>favourites_selector.xml</strong></li>
+			<li><strong>font_home_selector.xml</strong></li>
+			<li><strong>font_single_selector.xml</strong>n</li>
+			<li><strong>footer_gradient.xml</strong></li>
+			<li><strong>header_gradient.xml</strong></li>
+			<li><strong>latest_selector.xml</strong></li>
+			<li><strong>most_read_selector.xml</strong></li>
+			<li><strong>new_stuff_selector.xml</strong></li>
+			<li><strong>overflow_selector.xml</strong></li>
+			<li><strong>rate_app_selector.xml</strong></li>
+			<li><strong>search_selector.xml</strong></li>
+			<li><strong>search_icon_selector.xml</strong></li>
+			<li><strong>share_app_selector.xml</strong></li>
+			<li><strong>share_home_selector.xml</strong></li>
+			<li><strong>share_single_selector.xml</strong></li>
+			<li><strong>top_ten_selector.xml</strong></li>
+			<li><strong>twitter_selector.xml</strong></li>
+			<li><strong>twitter_icon.xml</strong></li>
+			<li><strong>latestjokes.png</strong></li>
+			<li><strong>twitter_img_off.png</strong> </li>
+			<li><strong>twitter_img_on.png</strong></li>
+			<li><strong>ic_launcher.png</strong></li>
+			<li><strong>alljokes_active.png</strong> </li>
+			<li><strong>alljokes.png</strong> </li>
+			<li><strong>arrow_left_home.png</strong></li>
+			<li><strong>arrow_left.png</strong></li>
+			<li><strong>arrow_right_home.png</strong></li>
+			<li><strong>arrow_right.png</strong></li>
+			<li><strong>arrow_white_image.png</strong> </li>
+			<li><strong>back.png</strong> </li>
+			<li><strong>buttons_back.png</strong> </li>
+			<li><strong>close.png</strong></li>
+			<li><strong>face.png</strong></li>
+			<li><strong>favourites_active_single.png</strong></li>
+			<li><strong>favourites_added.png</strong></li>
+			<li><strong>favourites_single_added.png</strong></li>
+			<li><strong>favourites_single.png</strong></li>
+			<li><strong>favourites.png</strong></li>
+			<li><strong>favourites2_active.png</strong></li>
+			<li><strong>favourites2.png</strong></li>
+			<li><strong>font_active_single.png</strong></li>
+			<li><strong>font_active.png</strong></li>
+			<li><strong>font_single.png</strong> </li>
+			<li><strong>font_slider_button.png</strong></li>
+			<li><strong>font.png</strong></li>
+			<li><strong>header_action_active.png</strong></li>
+			<li><strong>header_action.png</strong></li>
+			<li><strong>header_logo_shadow.png</strong></li>
+			<li><strong>header_logo.png</strong></li>
+			<li><strong>header_search_active.png</strong></li>
+			<li><strong>header_search.png</strong></li>
+			<li><strong>latest_active.png</strong></li>
+			<li><strong>latest.png</strong></li>
+			<li><strong>line.png</strong></li>
+			<li><strong>mail.png</strong></li>
+			<li><strong>minus.png</strong></li>
+			<li><strong>mostread_active.png</strong></li>
+			<li><strong>mostread.png</strong></li>
+			<li><strong>new_stuff_active.png</strong></li>
+			<li><strong>newstuff.png</strong></li>
+			<li><strong>plus.png</strong></li>
+			<li><strong>rate.png</strong> </li>
+			<li><strong>search_back.png</strong></li>
+			<li><strong>search_border.png</strong></li>
+			<li><strong>search_icon.png</strong></li>
+			<li><strong>share_active_single.png</strong></li>
+			<li><strong>share_active.png</strong></li>
+			<li><strong>share_single.png</strong></li>
+			<li><strong>share.png</strong> </li>
+			<li><strong>slider_button_active.png</strong></li>
+			<li><strong>slider_button.png</strong></li>
+			<li><strong>slider_line_yellow.png</strong></li>
+			<li><strong>slider_line.png</strong></li>
+			<li><strong>splash.png</strong>.</li>
+			<li><strong>star_border.png</strong></li>
+			<li><strong>star_filled.png</strong></li>
+			<li><strong>subheader_back.png</strong></li>
+			<li><strong>top10_active.png</strong> </li>
+			<li><strong>top10.png</strong> </li>
+			<li><strong>tweeter.png</strong> </li>
+			<li><strong>unread.png</strong></li>
+			<li><strong>window_back.png</strong> </li>
+		</ul>
+		<hr>
+		
+		<h3 id="others"><strong>3. Others</strong> - <a href="#toc">top</a></h3>
+		<ul>
+			<li><strong>AndroidManifest.xml</strong>  - the manifest of "Wordpress Ultimate App" application</li>
+			<li><strong>project.properties</strong>  - properties of the "Wordpress Ultimate App" application</li>
+		</ul>
+		<hr />
+		
+		<h3>II. How to configure the available projects in your workspace</h3>
+        <h3 id="import_project"><strong>1. Import the project into Eclipse</strong> - <a href="#toc">top</a></h3>
+        <p><strong>Step 1:</strong> Extract the content within the Workspace_*.zip file.
+            Start Eclipe and click on File > Switch Workspace > Other and locate the folder where you have extracted the zip file Workspace_*.zip and click OK.</p>
+        <p><img src="assets/images/locate_workspace.png" alt="Locate Workspace"></p>
+        <p><strong>Step 2:</strong> When you see the Eclipe's Welcome Screen click on File > Import > Android > Existing Android Code into Workspace and click on Next:</p>
+        <p><img src="assets/images/import_existing_code.png" alt="Import into Eclipse"></p>
+        <p><strong>Step 3:</strong> On the next step you should locate where you extracted the Workspace_*.zip file by clicking the Browse button and then OK:</p>
+        <p><img src="assets/images/import_existing_code_2.png" alt=""></p>
+        <p><strong>Step 4:</strong> When you click the OK button Eclipse will automatically detect the projects within this folder and will give you possibility to import them. Click Finish: </p>
+        <p><img src="assets/images/import_existing_code_3.png" alt="Finish importing"></p>
+        <p><strong>Step 5:</strong> Close the Welcome Screen and you will see on the left side the imported projects: </p>
+        <p><img src="assets/images/eclipse_1.png" alt="Eclipse"></p>
+        <p><strong>Step 6:</strong> Next step is to fix the libraries paths. For that purpose right click on JokeApp project and select Properties > Android and look at the Project Build Target, where you
+            should be sure your target is set to Android 4.2.2. After the look at the Libraries section and remove all items by clicking on it and clicking on Remove button. Do this for all items
+            within the Library section.</p>
+        <p><img src="assets/images/libraries_paths.png" alt="Remove Libraries"></p>
+        <p><strong>Step 7:</strong> After the removing please add the libraries with the correct paths by click on Add button. You should add them one by one: FacebookSDK, and view_pager_indicator:</p>
+        <p><img src="assets/images/libraries_add.png" alt="Add Libraries"></p>
+        <p><strong>Step 8:</strong> The final result should be the following: </p>
+        <p><img src="assets/images/libraries_final.png" alt="Libraries"></p>
+        <p><strong>Step 9:</strong> Click on OK and you are ready with the importing.</p>
+		
+		<h4 id="supportlib"><strong>2. Support Library</strong> - <a href="#toc">top</a></h4>
+        <ul>
+		    <li>Install the latest version of the the <i>Android Support Library</i> for each project in the workspace.</li>
+        </ul>
+		<img src="supportlib.png" />
+		
+		<h4 id="otherlib"><strong>3. Other Libraries</strong> - <a href="#toc">top</a></h4>
+        <ul>
+		    <li>Make sure your project has the following libraries on the build path:</li>
+		    <li>signpost-core-1.2.1.1.jar</li>
+		    <li>signpost-commonshttp4-1.2.1.1.jar</li>
+		    <li>ormlite-android-4.45</li>
+		    <li>ormlite-code-4.45.jar</li>
+		    <li>twitter4j-core.jar</li>
+		    <li>GoogleAdMobAdsSdk-6.4.1.jar</li>
+        </ul>
+		<hr />
+		
+		<h3>III. How to Customize "Joke App" for your Android Application</h3>
+		<h4 id="jokes"><strong>1. Jokes</strong> - <a href="#toc">top</a></h4>
+		
+		<p>To add <strong>Jokes</strong> in your own application do the following:</p>
+		<ol>
+			<li>Create a new XML file with the following structure and place it somewhere on the web.</li>
+			XML Example: <a href="http://dmb-team.com/assets/jokes.xml" target="_blank">http://dmb-team.com/assets/jokes.xml</a>
+			 <br /><br />
+			<ul>
+				<li>Element 'joke' - represents a single joke</li>
+				<li>Sub-element 'id' - the identifier of the joke. It must be a sequential number</li>
+				<li>Sub-Element 'author' - put the name of the joke's author here</li>
+				<li>Sub-Element 'date' - put the date of the joke here</li>
+				<li>Sub-Element 'jokeText' - put the text of the joke here</li>
+				<li>Sub-Element 'newStuff' - when a joke has this element with value true, this joke will be displayed within the New Stuff tab. Example:<br /> 
+					<img src="assets/images/joke-new-stuff.png"><br /> If you don't have jokes with the 'newStuff' sub-element you won't see jokes within the New Stuff tab, so it's
+					good idea when you add new jokes to your xml file to add this sub-element to the newly added jokes - this way the users will always know, which are the new jokes.</li>
+			</ul>
+			<br /><br />
+			
+			<li>Set the <i>XML_URL</i> value in class <i>AppConstants.java</i> with the URL of the XML you created in the previous step.</li>
+			<img src="xml_url.png" />
+		</ol>
+		
+		<h4 id="splash"><strong>2. Splash Screen</strong> - <a href="#toc">top</a></h4>
+		
+		<p>To customize the <strong>Splash Screen</strong> for your own application do the following:</p>
+		<ol>
+			<li>Replace the <i>splash.png</i> file in folders <i>drawable, drawable-xhdpi, drawable-hdpi, drawable-mdpi and drawable-ldpi</i> with your own splash image.</li>
+		</ol>
+		
+		<h4 id="admob"><strong>3. Admob</strong> - <a href="#toc">top</a></h4>
+		
+		<p>To turn on <strong>Admob</strong> do the following:</p>
+		<ol>
+			<li>If you want to have ads in your home screen (the screen with the slider) you need to set the flag <i>ENABLE_ADMOB_HOME_PAGE</i> in class <i>AppConstants.java</i> to true. If you set it to false, you won't see ads on the home screen.</li>
+			<li>If you want to have ads in your single joke screen (the screen that is displayed after you click some item from home screen) you need to set the flag <i>ENABLE_ADMOB_SINGLE_NEW</i> in class <i>AppConstants.java</i> to true.</li>
+			<li>Set the <i>ADMOB_REFRESH_INTERVAL</i> value in class <i>AppConstants.java</i> with the number of seconds to refresh the advertisements. The default value is 60 seconds.</li>
+			<li>Set the <i>admob_id</i> string property with your own admob id. This is very important and without setting it you will never see ads in your application. This string is located in the strings.xml file within the res/values/ folder.</li>
+			<img src="admob.png" />
+		</ol>
+		
+		<h4 id="facebook"><strong>4. Facebook</strong> - <a href="#toc">top</a></h4>
+		
+		<p>To generate <strong>hashkey</strong> for Facebook integration the do the following:</p>
+		<ol>
+			<li>Download 'openssl' from: http://code.google.com/p/openssl-for-windows/downloads/list.</li>
+			<li>Make a new 'openssl' folder in drive 'C:'.</li>
+			<li>Extract the downloaded .ZIP files into the 'openssl' folder.</li>
+			<li>Copy the file 'debug.keystore' from '.android' folder (in my case C:\Users\SYSTEM\.android) and paste it into your JDK 'bin' folder (in my case C:\Program Files\Java\jdk1.6.0_05\bin).</li>
+			<li>Open command prompt and type the path to the JDK 'bin' folder (in my case C:\Program Files\Java\jdk1.6.0_05\bin) and press ENTER.</li>
+			<li>Type 'keytool -exportcert -alias androiddebugkey -keystore debug.keystore > c:\openssl\bin\debug.txt'.</li>
+			<li>Now you will be asked to enter password. The password is 'android'. Type it and press ENTER.</li>
+			<li>In the openssl 'bin' folder you will get a file with the name 'debug.txt'.</li>
+			<li>Now either you can restart command prompt or work with existing command prompt.</li>
+			<li>Type the path to 'C:' drive and then type the path of the openssl 'bin' folder and press ENTER.</li>
+			<li>Type the command 'openssl sha1 -binary debug.txt > debug_sha.txt' and press ENTER</li>
+			<li>You will get 'debug_sha.txt' file in the openssl 'bin' folder.</li>
+			<li>Type the command 'openssl base64 -in debug_sha.txt > debug_base64.txt' and press ENTER.</li>
+			<li>You will get a file 'debug_base64.txt' in the openssl 'bin' folder.</li>
+			<li>Open the 'debug_base64.txt' file and there you can see your hashkey.</li>
+			
+		</ol>
+		
+		<p>To create a <strong>Facebook APP</strong> of your own do the following:</p>
+		<ol>
+			<li>Go to the App Dashboard on the Facebook Developers site (https://developers.facebook.com/apps). Click 'Create New App', and enter basic information such as its name and a unique namespace.</li>
+			<br /><img src="createnewapp.png" />
+			<li>Once created, note down the app ID shown at the top of the dashboard page. You'll need to add this to your project files.</li>
+			<br /><img src="appdetails.png" />
+			<li>Alternatively, you can, of course, use the ID of an existing app. In either case, you will also need to associate your Android keys hashes with the app. The key hash is used by Facebook as a security check for authenticity. 
+			By default, the app's package is signed with a machine specific debug key. When publishing the app it is typically signed with a different, release key. Therefore, you want to make sure you have the hashes of all the related keys set on Facebook:
+			Click 'Edit App' and open up the 'Native Android App' section at the bottom of the dashboard. Add the debug hashkey that you obtained at the end of the previous step.</li>
+			Add also your Android app's package and activity names to the Android settings. Also enable 'Facebook Login'.
+			If you have a release key, you will need to add its hash in the same way as explained for the debug key.
+			<br /><br /><img src="appdash.png" />
+			<li>Copy the APP_ID and paste it in 'strings.xml' file.</li>
+			<br /><img src="appid.png" />
+		</ol>
+		
+		<p>To customize the <strong>Facebook</strong> settings for your own application do the following:</p>
+		<ol>
+			<li>Set the <i>ENABLE_FACEBOOK_SHARE</i> flag in class <i>AppConstants.java</i> to true.</li>
+			<li>Set the <i>APP_PICTURE_LINK</i> value in class <i>AppConstants.java</i> with the picture you want to be used when you share a post from your app.</li>
+			<br /><img src="facebook.png" />
+		</ol>
+		
+		<h4 id="twitter"><strong>5. Twitter</strong> - <a href="#toc">top</a></h4>
+		
+		<p>To customize the <strong>Twitter</strong> settings for your own application do the following:</p>
+		<ol>
+			<li>Follow this video tutorial on How to get a "consumer key" and "consumer secret": <a target="_blank" href="http://youtu.be/99_eGm7qyOk">http://youtu.be/99_eGm7qyOk</a> </li>
+			<li>Set the <i>consumer_key</i> and <i>consumer_secret</i> values in file <i>strings.xml</i> with the ones you got from the previous step.</li>
+			<img src="twitter.png" />
+		</ol>
+		
+		<h4 id="more"><strong>6. Other settings</strong> - <a href="#toc">top</a></h4>
+		
+		<p>There are some less important but useful settings in <strong>AppConstants.java</strong> file. Their usage is described in the file.</p>
+		
+		
+		<hr>
+		
+		<p class="append-bottom alt large"><strong>"Android Joke App" by dmb TEAM</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

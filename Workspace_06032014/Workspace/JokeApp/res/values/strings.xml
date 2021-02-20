@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JokeApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="share_joke_success">The joke was shared successfully to your timeline</string>
+    <string name="no_internet_connectivity">No internet connectivity</string>
+    
+    <!-- Twitter -->
+    <string name="consumer_key">cOabV0Sro1cqOIhx7oBcg</string>
+    <string name="consumer_secret">U6Wde9h5BLvMop54ROEWoZawBRVsHfE74Q7vSP6Cc</string>
+    
+    <!-- Facebook -->
+    <string name="applicationId">538477476190555</string>
+    
+    <!-- Rate -->
+    <string name="cannot_launch_market">Android market application is not installed.</string>
+    
+    <!-- Admob id -->
+    <string name="admob_id">a150b5385a7c2fd</string>
+
+</resources>
